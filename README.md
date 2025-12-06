@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Nexus Launcher Manager
 
-# Run and deploy your AI Studio app
+Painel de gerenciamento para Launcher Android TV, com suporte a revendas, gestão de APKs e integração AI.
 
-This contains everything you need to run your app locally.
+## Deploy na Vercel
 
-View your app in AI Studio: https://ai.studio/apps/drive/1SJvGaKNhkKcKiz8vASJRAjpPfWvqJbXu
+1. Faça o fork ou push deste repositório para o seu GitHub.
+2. Acesse [Vercel](https://vercel.com) e crie um "New Project".
+3. Importe o repositório do GitHub.
+4. Em **Environment Variables**, adicione:
+   - `API_KEY`: Sua chave da Gemini AI API.
+5. Clique em **Deploy**.
 
-## Run Locally
+## Desenvolvimento Local
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. `npm install`
+2. Crie um arquivo `.env` com `API_KEY=sua_chave_aqui`
+3. `npm run dev`
